@@ -6,6 +6,8 @@ Adopt scalaz in practice. Project for self education. In progress.
 1. First example shows how to create own `Semigroup` and `Monoid`. 
 Check the `1.sc`. 
 
+2. Second example shows the generic fold function for list and tree.
+
 
 ## Terms
 `S e m i g r o u p` - requires to be associative.
