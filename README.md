@@ -17,3 +17,6 @@ operation and has an identity element. It can be also thought of as a
 semigroup with and identity element. A monoid must contain at least one 
 element. M o n o i d - law requires on + and 0.
 
+`F o l d a b l e` - means that contains something that already has a 
+monoid instance.
+
