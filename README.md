@@ -5,8 +5,14 @@ Adopt scalaz in practice. Project for self education. In progress.
 ## Content
 1. First example shows how to create own `Semigroup` and `Monoid`. 
 Check the `1.sc`. 
-
 2. Second example shows the generic fold function for list and tree.
+3. Another example with monoid. 
+4. Equal
+5. Order
+6. Show
+7. ...
+
+
 
 
 ## Terms

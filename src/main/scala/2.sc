@@ -58,3 +58,4 @@ import scalaz.{ Foldable, Monoid }
 
 
 
+
