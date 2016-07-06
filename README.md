@@ -10,7 +10,8 @@ Check the `1.sc`.
 4. Equal
 5. Order
 6. Show
-7. ...
+7. Enum
+8. ...
 
 
 
