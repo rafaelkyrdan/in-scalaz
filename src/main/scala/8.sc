@@ -5,6 +5,7 @@ import scalaz._, Scalaz._
   */
 
 case class TrafficLight(name: String)
+
 val red = TrafficLight("red")
 val yellow = TrafficLight("yellow")
 val green = TrafficLight("green")

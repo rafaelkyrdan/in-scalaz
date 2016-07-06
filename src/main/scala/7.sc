@@ -7,7 +7,7 @@ import scalaz._, Scalaz._
   * like -+-, ---, from, fromStep, pred, predx,
   * succ, succx, |-->, |->, |==>, and |=>.
   *
- */
+  */
 
 'a' to 'e'
 
