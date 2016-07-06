@@ -13,8 +13,8 @@ Check the `1.sc`.
 7. Enum
 8. Own type classes and equal
 9. Functor
-10. ...
-
+10. Applicative
+11. ...
 
 
 
@@ -28,4 +28,11 @@ element. M o n o i d - law requires on + and 0.
 
 `F o l d a b l e` - means that contains something that already has a 
 monoid instance.
+
+`F u n c t o r` is a typeclass, which is supports map function
+so it can be mapped over.
+
+`A p p l i c a t i v e   f u n c t o r` - knows how to apply function to a
+value which is boxed in the  some context and return the new
+value boxed in the same context.
 
