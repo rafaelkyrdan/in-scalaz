@@ -41,3 +41,8 @@ value boxed in the same context.
 `Tagged type` - is made for cases when we want to just take one type and wrap
 it in something to present it as another type.
 
+A `monoid` is when you have an associative binary function and a value which 
+acts as an identity with respect to that function.
+
+
+
