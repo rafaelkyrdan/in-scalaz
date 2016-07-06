@@ -34,10 +34,10 @@ ff(3)
 
 List(1, 2, 3) >| 'x'
 List(1, 2, 3) as 'x'
-List(1,2,3).fpair
+List(1, 2, 3).fpair
 List(1, 2, 3).strengthL("x")
 List(1, 2, 3).strengthR("x")
-List(1,2,3).void
+List(1, 2, 3).void
 
 
 

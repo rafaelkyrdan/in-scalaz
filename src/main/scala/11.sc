@@ -8,8 +8,8 @@ import scalaz._, Scalaz._
   */
 
 
-
 sealed trait KiloGram
+
 def KiloGram[A](a: A): A @@ KiloGram = Tag[A, KiloGram](a)
 
 val mass = KiloGram(20.0)
@@ -17,6 +17,7 @@ val mass = KiloGram(20.0)
 
 
 sealed trait JoulePerKiloGram
+
 def JoulePerKiloGram[A](a: A): A @@ JoulePerKiloGram =
   Tag[A, JoulePerKiloGram](a)
 

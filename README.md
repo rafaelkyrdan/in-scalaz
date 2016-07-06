@@ -16,7 +16,8 @@ Check the `1.sc`.
 10. Applicative
 11. Taged type
 12. Monoid
-13. ...
+13. Functor laws
+14. ...
 
 
 
@@ -44,5 +45,10 @@ it in something to present it as another type.
 A `monoid` is when you have an associative binary function and a value which 
 acts as an identity with respect to that function.
 
+The `first functor law` states that if we map the identity function over a functor, 
+the functor that we get back should be the same as the original functor.
 
+The `second law` says that composing two functions and then mapping the 
+resulting function over a functor should be the same as first mapping one 
+function over the functor and then mapping the other one.
 

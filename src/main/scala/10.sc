@@ -25,19 +25,33 @@ List(1, 2, 3, 4) map {
 }
 
 //Aplicative style
-9.some <*> {(_: Int) + 3}.some
+9.some <*> {
+  (_: Int) + 3
+}.some
 1.some <* 2.some
 none <* 2.some
 1.some *> 2.some
 none *> 2.some
 
-^(3.some, 5.some) {_ + _}
-^(3.some, none[Int]) {_ + _}
+^(3.some, 5.some) {
+  _ + _
+}
+^(3.some, none[Int]) {
+  _ + _
+}
 
 //Lists are applicative functors.
 List(1, 2, 3) <*> List((_: Int) * 0, (_: Int) + 100, (x: Int) => x * x)
-List(3, 4) <*> { List(1, 2) <*> List({(_: Int) + (_: Int)}.curried, {(_: Int) * (_: Int)}.curried) }
-(List("ha", "heh", "hmm") |@| List("?", "!", ".")) {_ + _}
+List(3, 4) <*> {
+  List(1, 2) <*> List({
+    (_: Int) + (_: Int)
+  }.curried, {
+    (_: Int) * (_: Int)
+  }.curried)
+}
+(List("ha", "heh", "hmm") |@| List("?", "!", ".")) {
+  _ + _
+}
 
 
 
