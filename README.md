@@ -14,25 +14,29 @@ Check the `1.sc`.
 8. Own type classes and equal
 9. Functor
 10. Applicative
-11. ...
+11. Taged type
+12. ...
 
 
 
 ## Terms
-`S e m i g r o u p` - requires to be associative.
+`Semigroup` - requires to be associative.
 
-`M o n o i d` - A monoid is a set that is closed under an associative binary 
+`Monoid` - A monoid is a set that is closed under an associative binary 
 operation and has an identity element. It can be also thought of as a 
 semigroup with and identity element. A monoid must contain at least one 
-element. M o n o i d - law requires on + and 0.
+element. Monoid - law requires on + and 0.
 
-`F o l d a b l e` - means that contains something that already has a 
+`Foldable` - means that contains something that already has a 
 monoid instance.
 
-`F u n c t o r` is a typeclass, which is supports map function
+`Functor` is a typeclass, which is supports map function
 so it can be mapped over.
 
-`A p p l i c a t i v e   f u n c t o r` - knows how to apply function to a
+`Applicative  functor` - knows how to apply function to a
 value which is boxed in the  some context and return the new
 value boxed in the same context.
+
+`Tagged type` - is made for cases when we want to just take one type and wrap
+it in something to present it as another type.
 
