@@ -11,7 +11,8 @@ Check the `1.sc`.
 5. Order
 6. Show
 7. Enum
-8. ...
+8. Own type classes and equal
+9. ...
 
 
 
