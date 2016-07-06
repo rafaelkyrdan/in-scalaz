@@ -15,7 +15,8 @@ Check the `1.sc`.
 9. Functor
 10. Applicative
 11. Taged type
-12. ...
+12. Monoid
+13. ...
 
 
 
