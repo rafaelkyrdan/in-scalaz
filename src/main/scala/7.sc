@@ -17,3 +17,16 @@ import scalaz._, Scalaz._
 
 
 'B'.succ
+
+/**
+  * Enum type is bounded type
+  * it means that members have an upper and
+  * lower bound
+  */
+
+implicitly[Enum[Char]].min
+implicitly[Enum[Char]].max
+implicitly[Enum[Double]].max
+implicitly[Enum[Int]].min
+
+
