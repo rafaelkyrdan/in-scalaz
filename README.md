@@ -17,7 +17,10 @@ Check the `1.sc`.
 11. Taged type
 12. Monoid
 13. Functor laws
-14. ...
+14. Monads
+15. MonadPlus
+16. Monad laws
+17. ...
 
 
 
@@ -30,7 +33,7 @@ semigroup with and identity element. A monoid must contain at least one
 element. Monoid - law requires on + and 0.
 
 `Foldable` - means that contains something that already has a 
-monoid instance.
+monoid instance. Foldable is for things that can be folded up.
 
 `Functor` is a typeclass, which is supports map function
 so it can be mapped over.
@@ -52,3 +55,20 @@ The `second law` says that composing two functions and then mapping the
 resulting function over a functor should be the same as first mapping one 
 function over the functor and then mapping the other one.
 
+`Monad` is an extension of applicative functor and provides a solution to the problem:
+how to apply a function that takes a normal value to a value
+with context and return the value with the context.
+
+The `MonadPlus` type class is for `monads` that can also act as monoids.
+
+
+The `first monad law` states that if we take a value, put it in a default 
+context with return and then feed it to a function by using >>=, it’s the same as 
+just taking the value and applying the function to it.
+
+
+The `second monad law` states that if we have a monadic value and we use >>= to feed 
+it to return, the result is our original monadic value.
+
+The `third monad law` says that when we have a chain of monadic function 
+applications with >>=, it shouldn’t matter how they’re nested.
