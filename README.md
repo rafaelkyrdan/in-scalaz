@@ -20,7 +20,9 @@ Check the `1.sc`.
 14. Monads
 15. MonadPlus
 16. Monad laws
-17. ...
+17. Writer
+18. State
+19. ...
 
 
 
@@ -72,3 +74,10 @@ it to return, the result is our original monadic value.
 
 The `third monad law` says that when we have a chain of monadic function 
 applications with >>=, it shouldn’t matter how they’re nested.
+
+`Writer` is a newtype wrapper to attach a monoid to a value.
+
+ A `stateful` computation is a function that takes some state and returns a value along 
+ with some new state. That function would have the following type: s -> (a, s)
+
+
