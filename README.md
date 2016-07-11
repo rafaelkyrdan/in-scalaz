@@ -22,7 +22,8 @@ Check the `1.sc`.
 16. Monad laws
 17. Writer
 18. State
-19. ...
+19. \/
+20. ...
 
 
 
@@ -79,5 +80,10 @@ applications with >>=, it shouldn’t matter how they’re nested.
 
  A `stateful` computation is a function that takes some state and returns a value along 
  with some new state. That function would have the following type: s -> (a, s)
+ 
+ The `Either` is a type that allows us to incorporate a context of possible 
+ failure to our values while also being able to attach values to the failure, 
+ so that they can describe what went wrong or provide some other useful 
+ info regarding the failure.
 
 
