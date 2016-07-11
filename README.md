@@ -1,5 +1,6 @@
 # in-scalaz
-Adopt scalaz in practice. Project for self education. In progress.
+Explore and adopt scalaz library in practice. 
+Project for self education. In progress.
 
 
 ## Content
@@ -25,7 +26,9 @@ Check the `1.sc`.
 19. \/
 20. Validation
 21. Kleisli
-22. ...
+22. Tree
+23. Zipper
+24. ...
 
 
 
