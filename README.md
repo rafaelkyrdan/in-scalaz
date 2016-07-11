@@ -89,3 +89,5 @@ info regarding the failure.
 
 The difference between `Validation` and `Either` is that it is not a monad, but it’s an applicative functor.
 
+`Monadic functions` are either operate on monadic values or return monadic values as their results (or both!).
+
