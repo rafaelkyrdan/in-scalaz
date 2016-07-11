@@ -24,7 +24,8 @@ Check the `1.sc`.
 18. State
 19. \/
 20. Validation
-21. ...
+21. Kleisli
+22. ...
 
 
 
