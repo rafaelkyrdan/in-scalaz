@@ -23,7 +23,8 @@ Check the `1.sc`.
 17. Writer
 18. State
 19. \/
-20. ...
+20. Validation
+21. ...
 
 
 
@@ -78,12 +79,13 @@ applications with >>=, it shouldn’t matter how they’re nested.
 
 `Writer` is a newtype wrapper to attach a monoid to a value.
 
- A `stateful` computation is a function that takes some state and returns a value along 
- with some new state. That function would have the following type: s -> (a, s)
+A `stateful` computation is a function that takes some state and returns a value along 
+with some new state. That function would have the following type: s -> (a, s)
  
- The `Either` is a type that allows us to incorporate a context of possible 
- failure to our values while also being able to attach values to the failure, 
- so that they can describe what went wrong or provide some other useful 
- info regarding the failure.
+The `Either` is a type that allows us to incorporate a context of possible 
+failure to our values while also being able to attach values to the failure, 
+so that they can describe what went wrong or provide some other useful 
+info regarding the failure.
 
+The difference between `Validation` and `Either` is that it is not a monad, but it’s an applicative functor.
 
