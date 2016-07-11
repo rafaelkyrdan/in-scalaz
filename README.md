@@ -30,6 +30,7 @@ Check the `1.sc`.
 23. Tree
 24. Zipper
 25. Identity
+26. Monad transformers
 
 
 
@@ -99,5 +100,7 @@ The difference between `Validation` and `Either` is that it is not a monad, but 
 The `Identity` monad is a monad that does not any computational strategy. 
 It simply applies the bound function to its input without any modification.
 Any monad transformer applied to the Identity monad yields a non-transformer version of that monad.
+
+A `monad transformer` modifies the behaviour of an underlying monad.
 
 
