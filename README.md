@@ -25,10 +25,11 @@ Check the `1.sc`.
 18. State
 19. \/
 20. Validation
-21. Kleisli
-22. Tree
-23. Zipper
-24. ...
+21. Monadic functions
+22. Kleisli
+23. Tree
+24. Zipper
+25. Identity
 
 
 
@@ -94,4 +95,9 @@ info regarding the failure.
 The difference between `Validation` and `Either` is that it is not a monad, but it’s an applicative functor.
 
 `Monadic functions` are either operate on monadic values or return monadic values as their results (or both!).
+
+The `Identity` monad is a monad that does not any computational strategy. 
+It simply applies the bound function to its input without any modification.
+Any monad transformer applied to the Identity monad yields a non-transformer version of that monad.
+
 
