@@ -31,6 +31,8 @@ Check the `1.sc`.
 24. Zipper
 25. Identity
 26. Monad transformers
+27. Lens
+
 
 
 
