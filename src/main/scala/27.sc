@@ -24,12 +24,12 @@ t.forward(10.0)
 // The idea is to get rid of unnecessary
 // copy calls insight the forward method
 
-val turtlePosition = Lens.lensu[Turtle, Point] (
+val turtlePosition = Lens.lensu[Turtle, Point](
   (a, value) => a.copy(position = value),
   _.position
 )
 
-val pointX = Lens.lensu[Point, Double] (
+val pointX = Lens.lensu[Point, Double](
   (a, value) => a.copy(x = value),
   _.x
 )
@@ -40,15 +40,17 @@ val t0 = Turtle(Point(2.0, 3.0), 0.0, Color(255.toByte, 255.toByte, 255.toByte))
 turtleX.get(t0)
 turtleX.set(t0, 5.0)
 turtleX.mod(_ + 1.0, t0)
-val incX = turtleX =>= {_ + 1.0}
+val incX = turtleX =>= {
+  _ + 1.0
+}
 incX(t0)
 
-val turtleHeading = Lens.lensu[Turtle, Double] (
+val turtleHeading = Lens.lensu[Turtle, Double](
   (a, value) => a.copy(heading = value),
   _.heading
 )
 
-val pointY = Lens.lensu[Point, Double] (
+val pointY = Lens.lensu[Point, Double](
   (a, value) => a.copy(y = value),
   _.y
 )

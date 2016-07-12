@@ -32,6 +32,8 @@ Check the `1.sc`.
 25. Identity
 26. Monad transformers
 27. Lens
+28. DList
+
 
 
 
@@ -104,5 +106,8 @@ It simply applies the bound function to its input without any modification.
 Any monad transformer applied to the Identity monad yields a non-transformer version of that monad.
 
 A `monad transformer` modifies the behaviour of an underlying monad.
+
+`DList`, or `difference list`, is a data structure that supports constanttime appending.
+
 
 
