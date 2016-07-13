@@ -35,10 +35,7 @@ Check the `1.sc`.
 28. DList
 29. Traversal
 30. Arrows
-
-
-
-
+31. Memo
 
 
 ## Terms
@@ -115,5 +112,7 @@ A `monad transformer` modifies the behaviour of an underlying monad.
 `Traversal` involves iterating over the elements of a data structure, in the style of a map
 
 An `arrow` is the term used in category theory as an abstract notion of thing that behaves like a function
+
+`Memo` - returns a function than may cache the result
 
 
