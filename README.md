@@ -33,6 +33,8 @@ Check the `1.sc`.
 26. Monad transformers
 27. Lens
 28. DList
+29. Traversal
+
 
 
 
@@ -109,5 +111,6 @@ A `monad transformer` modifies the behaviour of an underlying monad.
 
 `DList`, or `difference list`, is a data structure that supports constanttime appending.
 
+`Traversal` involves iterating over the elements of a data structure, in the style of a map
 
 
