@@ -34,6 +34,7 @@ Check the `1.sc`.
 27. Lens
 28. DList
 29. Traversal
+30. Arrows
 
 
 
@@ -112,5 +113,7 @@ A `monad transformer` modifies the behaviour of an underlying monad.
 `DList`, or `difference list`, is a data structure that supports constanttime appending.
 
 `Traversal` involves iterating over the elements of a data structure, in the style of a map
+
+An `arrow` is the term used in category theory as an abstract notion of thing that behaves like a function
 
 
