@@ -38,7 +38,7 @@ Check the `1.sc`.
 31. Memo
 
 
-## Terms
+## Dictionary
 `Semigroup` - requires to be associative.
 
 `Monoid` - A monoid is a set that is closed under an associative binary 
