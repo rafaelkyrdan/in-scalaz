@@ -1,6 +1,6 @@
 # in-scalaz
 Explore and adopt scalaz library in practice. 
-Project for self education. In progress.
+Project for self education.
 
 
 ## Content
